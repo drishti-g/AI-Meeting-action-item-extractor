@@ -5,3 +5,4 @@ langchain-groq
 python-dotenv
 transformers
 langchain-google-genai
+streamlit
