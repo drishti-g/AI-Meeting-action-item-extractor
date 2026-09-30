@@ -10,3 +10,8 @@ wheels/
 .venv
 
 .env
+
+part1.py
+part2.py
+part3.py
+part4.py

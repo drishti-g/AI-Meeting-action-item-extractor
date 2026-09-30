@@ -12,9 +12,10 @@ from evaluation_data import (sample_transcripts,evaluation_data_list)
 from evaluator import evaluate_action_items
 
 load_dotenv()
-os.environ["GEMINI_API_KEY2"] = os.getenv("GEMINI_API_KEY2")
 
-model = ChatGoogleGenerativeAI(model="gemini-3.5-flash-lite")
+api_key = st.secrets["GEMINI_API_KEY2"]
+
+model = ChatGoogleGenerativeAI(model="gemini-3.5-flash-lite",google_api_key=api_key)
 
 class TasksOwners(BaseModel):
     task: str = Field(description="what is the task that has to be performed?")
