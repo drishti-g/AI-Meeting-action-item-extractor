@@ -1,4 +1,4 @@
-EVALUATION_DATA = [
+evaluation_data_list = [
 
     {
         "name": "Pricing and Presentation Meeting",
@@ -234,7 +234,7 @@ Bob: I'll test the homepage on mobile and desktop by Friday.
 
 
 
-SAMPLE_TRANSCRIPTS = {
+sample_transcripts = {
 
     "Software Development Meeting": """
 Alice: We need to fix the login bug before Friday.
